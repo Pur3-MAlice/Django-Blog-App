@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'alice-django-blog-app-5e19a4e3d68e.herokuapp.com',
-    '8000-pur3malice-djangoblogap-hmslpl6rwzf.ws-eu102.gitpod.io',
+    '8000-pur3malice-djangoblogap-tsckgp32ch2.ws-eu103.gitpod.io',
     'localhost'
     ]
 
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
