@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'alice-django-blog-app-5e19a4e3d68e.herokuapp.com',
-    '8000-pur3malice-djangoblogap-tsckgp32ch2.ws-eu103.gitpod.io',
+    '8000-pur3malice-djangoblogap-purf41b2j69.ws-eu103.gitpod.io',
     'localhost'
     ]
 
