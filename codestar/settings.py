@@ -31,10 +31,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'alice-django-blog-app-5e19a4e3d68e.herokuapp.com',
-    '8000-pur3malice-djangoblogap-purf41b2j69.ws-eu103.gitpod.io',
+    '8000-pur3malice-djangoblogap-dyc6vhht3jl.ws-eu103.gitpod.io',
     'localhost'
     ]
-
 
 # Application definition
 
@@ -44,12 +43,23 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
     'django_summernote',
     'blog',
 ]
+
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+
+# ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
