@@ -1,1 +1,1 @@
-readme for this app 
+Fullstack blog post publishing app. Runs on Django and Bootstrap frameworks. 
